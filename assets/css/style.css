@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+
+    background-color: chartreuse;
+    min-height: 100vh;
+}
+header {
+    background-color: brown;
+    height: 400px;
+}
+li {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+nav  {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul:nth-child(odd) {
+  flex-direction: column;
+    justify-content: space-between;
+}
+nav ul:nth-child(2){
+  align-items: center;
+}
+nav ul li { 
+    margin: 30px;
+}
+
